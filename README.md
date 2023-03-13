@@ -7,7 +7,7 @@ An application that generates random passwords based on selected criteria. The a
 
 ## Main Site
 
-![Main Site](assets/images/main-site.jpg)
+![Main Site](assets/images/main-site.png)
 
 ## Location of Repository
 
