@@ -1,9 +1,10 @@
 
-let letters = 'abcdefghijklmnopqrstuvwxyz';
-let numbers = '0123456789';
-let symbols = "!#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+// Initialization of variables
+const letters = 'abcdefghijklmnopqrstuvwxyz';
+const numbers = '0123456789';
+const symbols = "!#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
-let options = ['Y', 'N'];
+const options = ['Y', 'N'];
 let pw_length; 
 
 let answers = {
@@ -29,6 +30,13 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword () {
+
+    // This function prompts the user with a series of questions to generate a random password. The input options 
+    // are not case-sensitive (accepts upper and lower case answers). If the user inputs an invalid input, the user will
+    // be alerted and can re-input their answer. They can also quit out at any point. 
+
+    // The function does not require any inputs 
+    //@return This will return the password.
 
     let char_length = prompt("What is the length of the password?");
     let password = "";
