@@ -3,7 +3,7 @@ This contains the Module 3 challenge of the Rice Coding Bootcamp
 
 ## Description
 
-An application that generates random passwords based on selected criteria. The app runs in the browswer and features dynamically updated HTML and CSS powered by custom Javascript. 
+An application that generates random passwords based on selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by custom Javascript. 
 
 ## Main Site
 
